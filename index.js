@@ -38,12 +38,11 @@ let namenStudentenArr = [];
 //   if(namenInput != "s"){
 //     namenStudentenArr.push(namenInput);
 //   }
-  
+
 // }
 // for(let i = 0 ; i < namenStudentenArr.length ; i++) {
 //     console.log(`Hallo ${namenStudentenArr[i]} , Je bent uitgenodigd om deel te nemen aan de leukste cursus van EhB`);
 // }
-
 
 // E4: Gemiddelde
 // Maak een array waar je een lijst van punten in gaat bijhouden. Schrijf vervolgens code om de gemiddelde score te berekenen.
@@ -60,22 +59,29 @@ let namenStudentenArr = [];
 // M1: Korting plz
 // Maak een array waar je enkele prijzen in gaat bijhouden. schrijf vervolgens een functie om 15 procent korting te geven. Deze functie krijgt een prijs binnen en geeft als resultaat de nieuwe prijs met korting terug. Loop vervolgens over al je prijzen en pas de geefKorting functie toe op elke prijs.
 
-let prijzen = [4.3 , 8.2 , 3.6]
-let kortingsPrijzenArr = []
-const vijftienPercentKorting = (prijs) => {
-    let korting = prijs - (prijs /100 * 15) 
-    return korting
-}
+// let prijzen = [4.3 , 8.2 , 3.6]
+// let kortingsPrijzenArr = []
+// const vijftienPercentKorting = (prijs) => {
+//     let korting = prijs - (prijs /100 * 15)
+//     return korting
+// }
 
-for(let i = 0 ; i < prijzen.length ; i++){
-    kortingsPrijzenArr.push(vijftienPercentKorting(prijzen[i]))
-    
-}
-console.log(kortingsPrijzenArr);
+// for(let i = 0 ; i < prijzen.length ; i++){
+//     kortingsPrijzenArr.push(vijftienPercentKorting(prijzen[i]))
 
+// }
+// console.log(kortingsPrijzenArr);
 
 // M2: Fibonacci
 // Schrijf code om een reeks van Fibonacci op te bouwen, je houd de reeks bij in een array. start met een array dat de waarden 0 en 1 bevat, je vult de array op tot deze 10 getallen bevat. Binnen deze reeks zal elk volgend getal de som zijn van de vorige twee getallen. Het resultaat dat je moet bekomen is dus [0, 1, 1, 2, 3, 5, 8, 13, 21, 34].
+
+let arrayFibonacci = [7, 8, 9, 4];
+
+console.log(arrayFibonacci.indexOf());
+
+// for(let i = 0 ; i < 10 ; i++ ){
+
+// }
 
 // M3: Search
 // schrijf een functie om in een namenlijst te zoeken op welke plaats een bepaalde naam voorkomt. Wat je teruggeeft is ofwel de index van de naam binnen de array ofwel -1 als je de naam niet kan vinden. als je bijvoorbeeld een lijst hebt met de volgende namen let namen = ["Amin", "Sofie", "Samantha", "Karel", "Mehdi", "Joris", "Nuria"] en je zoekt op Mehdi dan krijg je als resultaat 4.
